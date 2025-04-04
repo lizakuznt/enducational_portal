@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: "Rubik", "sans-serif";
+
+  --color-light-gray: #e1e1e1;
+  --color-dark-gray: #4f4f4f;
+  --color-black: #282828;
+  --color-accent: #7174cd;
+  --color-dark-violet: #4346a5;
+  --color-light-violet: #e9eaff;
+}
+
+body {
+  font-family: var(--font-rubik);
+  color: var(--color-black);
+  line-height: 1;
+  font-weight: 400;
+
+  cursor: default;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
